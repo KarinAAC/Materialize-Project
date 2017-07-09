@@ -1,0 +1,131 @@
+body, html{
+    background-color: #EDEDED !important;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/*REUTILIZABLES*/
+.cont-sect{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+/*HEADER*/
+header{
+    height:630px;
+    width: 100%;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position:right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header .row{
+    margin: 0;
+}
+.btn-white{
+    background-color: white;
+}
+/*SECCION ABOUT ME*/
+
+#seccion-about-me #titulo{
+    height: 100px;
+}
+#seccion-about-me .informacion-1{
+    height: 350px;
+}
+.informacion-1 .sub-1{
+    padding-bottom: 30px;
+}
+#seccion-about-me .informacion-2{
+    height: 430px;
+}
+#seccion-about-me .informacion-2 .img-monica{
+    width: 90px;
+    height: 100px;
+    background: white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#seccion-about-me .informacion-2 .img-monica img{
+    width: 50px;
+}
+.informacion-2 .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.informacion-2 .card-action{
+    display: flex;
+    justify-content: center;
+}
+.hr{
+    width: 40px;
+    margin-bottom: 30px;
+}
+/*PORTFOLIO*/
+.bg-portfolio{
+    background-color: white;
+}
+
+.bg-portfolio .container div.row{
+    margin-bottom: 0;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+div.modal div.modal-content{
+
+    padding: 0;
+}
+.modal-overlay{
+    opacity: 1 !important;
+}
+.modal{
+    overflow-y: hidden;
+}
+div.col.s4{
+    margin:0;
+    padding: 0;
+    line-height: 0;
+}
+div.col.s4:hover{
+    opacity: 0.5;
+}
+div.col.s4 a{
+    width: auto;
+    height: auto;
+}
+@media (max-width:360px) {
+    div.modal.open{
+        transform: translateY(50%) !important;
+    }
+}
+/* FORMULARIO */
+form{
+    margin-bottom: 10%;
+}
+/* FOOTER */
+.footer-bg{
+    background-color: #607d8b;
+    padding: 0;
+}
+.menu-bar{
+  background: #fff !important;
+  position: fixed;
+  z-index: 1;
+}
+.menu-bar a{
+  color: black;
+  margin-left: 20px;
+}
