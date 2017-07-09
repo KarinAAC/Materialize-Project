@@ -16,4 +16,4 @@ Proyecto Materialize | Sprint 4
 |---|---|---|
 [Erika Vidal](https://github.com/dianaVidalC) | [Fiorella Cisneros](https://github.com/Fiorellacr24/) | [Karin Alejo](https://github.com/KarinAAC)
 
-Mira cómo quedó haciendo click [aquí](https://fiorellacr24.github.io/MaterializeProject/).
+Mira cómo quedó haciendo click [aquí](https://karinaac.github.io/Materialize-Project/index.html).
